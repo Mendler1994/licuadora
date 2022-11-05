@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.blender{
+width: 250px;
+height: 500px;
+background-color: skyblue;
+position: fixed;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+.blender-button{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    margin: 350px auto 0px;
+}

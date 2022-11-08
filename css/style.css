@@ -5,18 +5,26 @@
 }
 
 .blender{
-width: 250px;
+width: 700px;
 height: 500px;
-background-color: skyblue;
+/*background-color: skyblue;*/
 position: fixed;
 left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
+background-image: url("../img/licuadoraApagada.png");
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.blender.active {
+    background-image: url("../img/licuadoraEncendida.gif");
 }
 
 .blender-button{
-    width: 70px;
-    height: 70px;
-    background-color: brown;
-    margin: 350px auto 0px;
+    width: 20px;
+    height: 20px;
+/*  background-color: brown;*/
+    margin: 383px auto 0px;
 }
